@@ -1,0 +1,28 @@
+import React from "react";
+import Nav from "../Components/Nav";
+import FirstHeader from "../Components/FirstHeader";
+import Story from "../Components/OurStory";
+import Numbers from "../Components/OurNumbers";
+import OurTeam from "../Components/OurTeam";
+import Values from "../Components/OurValues";
+import Form from "../Components/Form";
+import Footer from "../Components/Footer";
+
+const RealPage = () => {
+    return (
+        <>
+            <Nav/>
+            <FirstHeader/>
+            <Story/>
+            <Numbers/>
+            <OurTeam/>
+            <Values/>
+            <section className="last-section">
+                <Form/>
+                <Footer/>
+            </section>
+        </>
+    )
+}
+
+export default RealPage
