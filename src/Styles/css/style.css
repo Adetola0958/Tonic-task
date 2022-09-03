@@ -417,4 +417,16 @@ margin-top: 6rem;
     border-radius: 120px;
     padding: 1px 14px;
     gap: 10px;
+    color: #0A2640;
+    font-weight: 700;
+}
+.last-section .site-footer .rights{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #777777;
 }

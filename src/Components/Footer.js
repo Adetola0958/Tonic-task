@@ -56,7 +56,7 @@ const Footer = () => {
                                 </li>
                             </ul>
                         </div>
-                        
+                        <p className="rights">All rights reserved.</p>
                     </div>
                 </div>
             </footer>
