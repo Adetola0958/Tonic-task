@@ -7,12 +7,13 @@ const Footer = () => {
             <footer className="site-footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-5 col-md-6 col-6 image">
+                        <div className="col-lg-4 col-md-6 col-6 image">
                             <a href="/"><img src={Logo} alt="logo"/></a>
                             <p className="short-desc">
                                 Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter 
                             </p>
                         </div>
+                        <div className="col-lg-1"></div>
                         <div className="col-lg-2 col-md-6 col-6 mb-4">
                             <h3 className="">Landings</h3>
                             <ul className="list-unstyled">
