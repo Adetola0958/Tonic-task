@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from "../Assets/Images/Footer-Logo.png";
 
 const Footer = () => {
     return(
@@ -6,8 +7,8 @@ const Footer = () => {
             <footer className="site-footer">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-5 col-md-6 col-6">
-                            <h3 className="site-logo">Boldo</h3>
+                        <div className="col-lg-5 col-md-6 col-6 image">
+                            <a href="/"><img src={Logo} alt="logo"/></a>
                             <p className="short-desc">
                                 Social media validation business model canvas graphical user interface launch party creative facebook iPad twitter 
                             </p>

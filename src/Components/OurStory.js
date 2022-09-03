@@ -6,8 +6,8 @@ const Story = () => {
             <section className="our-story">
                 <div className="container">
                     <div></div>
-                    <div className="px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center story-container">  
-                        <div className="justify-content-center">
+                    <div className="row justify-content-center">  
+                        <div className="col-md-8">
                             <p className="story">Our story</p>
                             <h3 className="story-header mb-4">Handshake infographic mass market crowdfunding iteration.</h3>
                             <p className="story-para">

@@ -15,18 +15,22 @@ const Numbers = () => {
                     </div>
                     
                     <div className="statistics">
-                        <div className="row justify-content-left">
-                            <div className="col-lg-4">
-                                <h3>120m</h3>
-                                <p className="text-white">Cool feature title</p>
-                            </div>
-                            <div className="col-lg-4">
-                                <h3>10.000</h3>
-                                <p className="text-white">Cool feature title</p>
-                            </div>
-                            <div className="col-lg-4">
-                                <h3>240</h3>
-                                <p className="text-white">Cool feature title</p>
+                        <div className="row justify-content-center">
+                            <div className="col-md-10">
+                                <div className="row">                               
+                                    <div className="col-lg-4">
+                                        <h3>120m</h3>
+                                        <p className="text-white">Cool feature title</p>
+                                    </div>
+                                    <div className="col-lg-5">
+                                        <h3>10.000</h3>
+                                        <p className="text-white">Cool feature title</p>
+                                    </div>
+                                    <div className="col-lg-3">
+                                        <h3>240</h3>
+                                        <p className="text-white">Cool feature title</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>

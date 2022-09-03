@@ -7,12 +7,14 @@ import OurTeam from "../Components/OurTeam";
 import Values from "../Components/OurValues";
 import Form from "../Components/Form";
 import Footer from "../Components/Footer";
+import ImageDiv from "../Components/ImageDiv";
 
 const RealPage = () => {
     return (
         <>
             <Nav/>
             <FirstHeader/>
+            <ImageDiv />
             <Story/>
             <Numbers/>
             <OurTeam/>
